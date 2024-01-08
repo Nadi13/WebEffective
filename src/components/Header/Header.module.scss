@@ -6,13 +6,13 @@
     justify-content: center;
     background: $color-background;
     width: 100%;
-    gap: 400px;
+    gap: 430px;
     height: 150px;
 
     .logo_block {
         display: flex;
         align-items: center;
-        font-size: $logo_title__font_size;
+        font-size: $font_size_26;
         font-weight: $large_font_weight;
         gap: 12px;
     
@@ -26,7 +26,7 @@
             border-radius: 22px;
     
             color: $color-logo-letter;
-            font-size: $logo_letter_font_size;
+            font-size: $font_size_24;
         }
     
         .light_text {
@@ -52,7 +52,7 @@
     
                 a {
                     text-decoration: none;
-                    font-size: $menu_font_size;
+                    font-size: $font_size_18;
                     font-weight: $normal_font_weight;
                     color: $color-navbar-not-selected;
             
