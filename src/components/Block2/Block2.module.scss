@@ -1,0 +1,71 @@
+@import 'src/myTools/colors.scss';
+@import 'src/myTools/size.scss';
+
+.container {
+    position: relative;
+    margin-top: 192px;
+
+    .background {
+        position:absolute;
+        top: 190px;
+        z-index: -1;
+
+        .img {
+            position: relative;
+            width: 730px;
+            opacity: 0.6;
+            margin-right: 510px;
+        }
+
+        .points {
+            position:absolute;
+            width: 132px;
+            height: 115px;
+            top: 52%;
+        }
+    }
+
+    .textBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 80px;
+
+        .title {
+            font-weight: $large_font_weight;
+            font-size: $font_size_36;
+            margin: 0;
+        }
+
+        .divider {
+            margin-top: 26px;
+            margin-bottom: 33px;
+        }
+
+        .text {
+            width:952px;
+            text-align: center;
+            font-weight: $small_font_weight;
+            font-size: $font_size_18;
+            color: $color-text;
+            margin: 0;
+        }
+    }
+
+    .cards {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 350px 350px  350px;
+        column-gap: 37px;
+        row-gap: 37px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        padding-top: 72px;
+        padding-bottom: 50px;;
+    }
+
+}

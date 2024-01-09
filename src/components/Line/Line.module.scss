@@ -1,0 +1,15 @@
+@import 'src/myTools/colors.scss';
+
+.line {
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+}
+
+.dark {
+    background-color: $color-divider;
+}
+
+.light {
+    background-color: $color-divider-light;
+}

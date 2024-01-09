@@ -1,6 +1,23 @@
 @import 'src/myTools/colors.scss';
 @import 'src/myTools/size.scss';
 
-.button{
-    
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid $color-button-filled-bg;
+    border-radius: 55px;
+    width: 200px;
+    height: 56px;
+    margin-top: 20px;
+    background-color: $color-button-blank-bg;
+
+    color: $color-logo-letter-light;
+    font-weight: $large_font_weight;
+    font-size: $font_size_18;
+
+    &:hover {
+        background-color: $color-blank-button-hover-bg;
+        cursor: pointer;
+    }
 }
