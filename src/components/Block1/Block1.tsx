@@ -9,7 +9,7 @@ const Block1 = () => {
             <div className = {css.textBlock}>
                 <h1 className = {css.title}>{strings.Virtual}</h1>
                 <p className = {css.text}>{strings.Text1}</p>
-                <button className={css.buttonFilled}>{strings.Button1}</button>
+                <button className={css.buttonFilled}>{strings.Consult}</button>
             </div>
             <img className={css.mainPage} src='src/assets/main_page.png'></img>
             </div>

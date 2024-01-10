@@ -1,0 +1,55 @@
+@import 'src/myTools/colors.scss';
+@import 'src/myTools/size.scss';
+
+.container {
+    position: relative;
+    margin-top: 192px;
+
+    .threePoints {
+        position: absolute;
+        right: 0;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;  
+        gap: 142px;
+        margin-left: -65px;
+
+        .threePage {
+            width: 650px;
+            height: 477px;
+        }
+
+        .textBlock {
+            display: flex;
+            flex-direction: column;
+            padding-top: 57px;
+            width: 450px;
+        
+            .title {
+                font-weight: $large_font_weight;
+                font-size: $font_size_36;
+                margin: 0;
+            }
+
+            .divider {
+                margin-top: 26px;
+                margin-bottom: 31px;
+            }
+
+            .text {
+                font-weight: $small_font_weight;
+                font-size: $font_size_18;
+                color: $color-text;
+                margin: 0;
+            }
+
+            .button {
+                margin-top: 67px;
+            }
+
+        }
+    }
+}

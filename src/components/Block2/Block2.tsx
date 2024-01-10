@@ -34,7 +34,7 @@ const Block2 = () => {
                 <img className={css.points} src='src/assets/five_points.png'></img>
             </div> 
             <div className={css.button}>
-                <Button text={strings.Button2} />
+                <Button text={strings.LearnMore} />
             </div>
         </div>
     </>
