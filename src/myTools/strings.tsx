@@ -26,6 +26,9 @@ const strings = {
     LearnMore: "Learn more",
     Providers: "Leading healthcare providers",
     Text3: "We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver",
+    DownloadMobileApps: "Download our mobile apps",
+    Text4: "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely",
+    Download: "Download"
 
 };
 

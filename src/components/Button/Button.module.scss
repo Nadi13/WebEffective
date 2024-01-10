@@ -20,4 +20,10 @@
         background-color: $color-blank-button-hover-bg;
         cursor: pointer;
     }
+
+    img {
+        margin-left: 15px;
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
