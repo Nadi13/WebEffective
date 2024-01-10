@@ -15,7 +15,7 @@
         .textBlock {
             display: flex;
             flex-direction: column;
-            padding-top: 36px;
+            padding-top: 25px;
             gap: 25px;
             width: 420px;
         
@@ -36,6 +36,7 @@
                 font-weight: $small_font_weight;
                 font-size: $font_size_18;
                 color: $color-text;
+                line-height: 30px;
                 margin: 0;
             }
 

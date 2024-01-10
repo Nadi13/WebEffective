@@ -28,7 +28,14 @@ const strings = {
     Text3: "We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver",
     DownloadMobileApps: "Download our mobile apps",
     Text4: "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely",
-    Download: "Download"
+    Download: "Download",
+    Review: "What our customer are saying",
+    NameUser1: "Edward Newgate",
+    Role: "Founder Circle",
+    Review1: "“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”",
+    Review2: "“With just a few clicks or taps, you can securely view your medical records, test results, upcoming appointments, and medication history”",
+    Review3: "“Our user-friendly interface makes it simple to navigate and find the information you need”",
+    Review4: "“Plus, our app and portal are available 24/7, so you can access your health data whenever and wherever you need it. This empowers you to take a more active role in managing your health and making informed decisions about your care”"
 
 };
 
