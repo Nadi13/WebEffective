@@ -1,0 +1,59 @@
+@import 'src/myTools/colors.scss';
+@import 'src/myTools/size.scss';
+
+$right-margin: 164px;
+$left-margin: 280px;
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 9%;
+    padding-left: calc($left-margin - $right-margin);
+    margin-top: 229px;
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 71px;
+        
+        .textBlock {
+            display: flex;
+            flex-direction: column;
+            padding-top: 25px;
+            gap: 25px;
+            width: 420px;
+        
+
+            .title {
+                font-weight: $large_font_weight;
+                font-size: $font_size_36;
+                margin: 0;
+                width: 254px;
+            }
+
+            .divider {
+                margin-top: 5px;
+                margin-bottom: 6px;
+            }
+
+            .text {
+                font-weight: $small_font_weight;
+                font-size: $font_size_18;
+                color: $color-text;
+                line-height: 30px;
+                margin: 0;
+            }
+
+            .button {
+                margin-top:15px;
+                }
+        }
+
+        .mainPage {
+            width: 665px;
+            height: 434px;
+        }
+    }
+}

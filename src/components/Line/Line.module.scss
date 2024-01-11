@@ -1,0 +1,16 @@
+@import 'src/myTools/colors.scss';
+
+.line {
+    display: flex;
+    width: 56px;
+    height: 2px;
+    border-radius: 0px;
+}
+
+.dark {
+    background-color: $color-divider;
+}
+
+.light {
+    background-color: $color-divider-light;
+}

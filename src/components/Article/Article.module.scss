@@ -1,0 +1,73 @@
+@import 'src/myTools/colors.scss';
+@import 'src/myTools/size.scss';
+
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 227px;
+    margin-bottom: -40px;
+
+    .background {
+        position:absolute;
+        top: 100px;
+        z-index: -1;
+        margin-left: -267px;
+
+        .points {
+            position: relative;
+            width: 132px;
+            height: 115px;
+            margin-right: 820px;    
+        }
+
+        .img {
+            position:absolute;
+            width: auto;
+            height: 450px;
+            opacity: 0.6;
+        }
+    }
+
+    .textBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .title {
+            font-weight: $large_font_weight;
+            font-size: $font_size_36;
+            margin: 0;
+        }
+
+        .divider {
+            margin-top: 26px;
+            margin-bottom: 72px;
+        }
+    }
+
+    .cards {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 350px 350px  350px;
+        column-gap: 34px;
+        row-gap: 34px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        padding-top: 72px;
+    }
+
+    .fivePoints {
+        margin-top: 129px;
+        width: 130px;
+        height: 115px;
+        margin-left: 1350px;
+    }
+
+}

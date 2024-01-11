@@ -1,0 +1,123 @@
+@import 'src/myTools/colors.scss';
+@import 'src/myTools/size.scss';
+
+$full-height: 100%;
+$points-horizontal-bias: 96px;
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow-y: clip;
+    box-sizing: border-box;
+    padding: 118px 0 109px 0;
+    width: 100%;
+    height: 432px;
+    background: $color-background-footer;
+
+
+    .columns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1196px;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+    
+            .companyInfo {
+
+                .logo {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 12px;
+                    align-items: center;
+                    justify-content: start;
+    
+                    .logoCircle {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 41px;
+                        height: 41px;
+                        border-radius: 50%;
+                        background-color: $color-logo-bg-light;
+            
+                        .logoLetter {
+                            color: $color-logo-letter-light;
+                            font-weight: $large_font_weight;
+                            font-size: $font_size_26;
+                        }
+                    }
+    
+                    .logoTitle {
+                        color: $color-logo-title-light;
+                        font-size: $font_size_24;
+                        font-weight: $large_font_weight;
+                    }
+                }
+    
+                .textBlock {
+                    width: 391px;
+                    margin-top: 17px;
+                    color: $color-text-light;
+                    font-size: $font_size_18;
+                    font-weight: $small_font_weight;
+                    line-height: 28px;
+                }
+            }
+    
+            .rights {
+                color: $color-text-light;
+                font-size: $font_size_16;
+                font-weight: $small_font_weight;
+                line-height: 28px;
+            }
+        }
+    
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+    
+            .title {
+                color: $color-text-light;
+                font-size: $font_size_20;
+                font-weight: $large_font_weight;
+                line-height: 60px;
+            }
+
+            .text {
+                color: $color-text-light;
+                font-size: $font_size_18;
+                font-weight: $small_font_weight;
+                line-height: 38px;
+            }
+            
+            .text:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+    
+            .link {
+                color: $color-text-light;
+                font-size: $font_size_18;
+                font-weight: $small_font_weight;
+                line-height: 38px;
+            }
+        }    
+    }
+
+    .pointsBg {
+        position: absolute;
+        height: 115px;
+        width: 115px;
+        left: -20px;
+        top: calc($full-height - $points-horizontal-bias)
+    }
+}
