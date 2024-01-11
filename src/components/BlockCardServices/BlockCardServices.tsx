@@ -1,4 +1,4 @@
-import css from './BlockCard.module.scss'
+import css from './BlockCardServices.module.scss'
 import { FC } from "react";
 
 interface BlockCardInterface {

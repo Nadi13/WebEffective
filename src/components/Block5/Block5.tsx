@@ -28,7 +28,7 @@ const Block5 = () => {
             <img src="/src/assets/group_two.png" className={css.twoPoints}/>
             <div className = {css.wrapper}>
             <div className = {css.content}>
-            <img src="/src/assets/group.png" className={css.threePoints}/>
+            <img src="/src/assets/group_three.png" className={css.threePoints}/>
                 <div className = {css.title}>{strings.Review}</div>
                 <div className = {css.divider}>
                         <Line light = {true}/>

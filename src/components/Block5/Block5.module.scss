@@ -2,10 +2,11 @@
 @import 'src/myTools/size.scss';
 
 .container {
-    position: relative;
     display: flex;
-
-    justify-content: center; 
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     margin-top: 266px;
 
     .wrapper {
@@ -16,8 +17,9 @@
     }
 
     .twoPoints {
-        margin-top: 271px;
-        margin-right: 10px;
+        position: absolute;
+        margin-left:-1185px;
+        margin-top: 270px;
         width: 52px;
         height: 115px;
     }

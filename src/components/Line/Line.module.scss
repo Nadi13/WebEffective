@@ -1,9 +1,10 @@
 @import 'src/myTools/colors.scss';
 
 .line {
+    display: flex;
     width: 56px;
     height: 2px;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 .dark {

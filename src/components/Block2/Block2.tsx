@@ -1,7 +1,7 @@
 import css from './Block2.module.scss';
 import strings from '../../myTools/strings.tsx';
 import Line from '../Line/Line';
-import BlockCard from '../BlockCard/BlockCard';
+import BlockCard from '../BlockCardServices/BlockCardServices.tsx';
 import Button from '../Button/Button';
 
 const Block2 = () => {
@@ -18,11 +18,11 @@ const Block2 = () => {
     return <>
         <div className = {css.container}>
             <div className = {css.textBlock}>
-                <h1 className = {css.title}>{strings.Our}</h1>
+                <div className = {css.title}>{strings.Our}</div>
                 <div className = {css.divider}>
                     <Line/>
                 </div>
-                <p className = {css.text}>{strings.Text2}</p>
+                <div className = {css.text}>{strings.Text2}</div>
             </div>
             <div className={css.cards}>
                 {card_data.map(({ id, image, title, text }) => (

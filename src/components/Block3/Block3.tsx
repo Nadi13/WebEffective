@@ -9,11 +9,11 @@ const Block3 = () => {
             <div className = {css.content}>
                 <img className={css.threePage} src='src/assets/three_page.png'></img>
                 <div className = {css.textBlock}>
-                    <h1 className = {css.title}>{strings.Providers}</h1>
+                    <div className = {css.title}>{strings.Providers}</div>
                     <div className = {css.divider}>
                         <Line/>
                     </div>
-                    <p className = {css.text}>{strings.Text3}</p>
+                    <div className = {css.text}>{strings.Text3}</div>
                     <div className={css.button}>
                         <Button text={strings.LearnMore} />
                     </div>

@@ -4,12 +4,13 @@ import { FC } from "react";
 interface ButtonInterface {
     text: string,
     imageSrc?: string;
+    onClick?: ()=>void;
 }
 
-const Button: FC<ButtonInterface> = ({text, imageSrc}) => {
+const Button: FC<ButtonInterface> = ({text, imageSrc, onClick}) => {
 
     return <>
-        <button className={css.button}>
+        <button className={css.button} onClick={onClick}>
             {text}
             {imageSrc && <img src={imageSrc} alt="иконка" />}
         </button>

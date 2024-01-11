@@ -35,7 +35,17 @@ const strings = {
     Review1: "“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”",
     Review2: "“With just a few clicks or taps, you can securely view your medical records, test results, upcoming appointments, and medication history”",
     Review3: "“Our user-friendly interface makes it simple to navigate and find the information you need”",
-    Review4: "“Plus, our app and portal are available 24/7, so you can access your health data whenever and wherever you need it. This empowers you to take a more active role in managing your health and making informed decisions about your care”"
+    Review4: "“Plus, our app and portal are available 24/7, so you can access your health data whenever and wherever you need it. This empowers you to take a more active role in managing your health and making informed decisions about your care”",
+    CheckArticle: "Check out our latest article",
+    ArtickeTitle1: "Disease detection, check up in the laboratory",
+    ArticleText1: "In this case, the role of the health laboratory is very important to do a disease detection...",
+    ArticleTitle2: "Herbal medicines that are safe for consumption",
+    ArticleText2: "Herbal medicine is very widely used at this time because of its very good for your health...",
+    ArticleTitle3: "Natural care for healthy facial skin",
+    ArticleText3: "A healthy lifestyle should start from now and also for your skin health. There are some...",
+    ReadMore: "Read more",
+    ViewAll: "View all",
+    Hide: "Hide"
 
 };
 

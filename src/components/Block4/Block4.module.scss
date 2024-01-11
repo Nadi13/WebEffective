@@ -1,16 +1,22 @@
 @import 'src/myTools/colors.scss';
 @import 'src/myTools/size.scss';
 
+$right-margin: 164px;
+$left-margin: 280px;
+
 .container {
-    position: relative;
-    margin-top: 241px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 9%;
+    padding-left: calc($left-margin - $right-margin);
+    margin-top: 229px;
 
     .content {
         display: flex;
         flex-direction: row;
         justify-content: center;
         gap: 71px;
-        margin-right: -90px;
         
         .textBlock {
             display: flex;
