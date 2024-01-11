@@ -5,7 +5,7 @@ const strings = {
     FindDoc: "Find a doctor",
     Apps: "Apps",
     Testimonials: "Testimonials",
-    About: "About us",
+    AboutUs: "About us",
     Virtual: "Virtual healthcare for you",
     Text1: "Our service provides progressive, and affordable healthcare, accessible on mobile and online for everyone",
     Consult: "Consult today",
@@ -45,8 +45,21 @@ const strings = {
     ArticleText3: "A healthy lifestyle should start from now and also for your skin health. There are some...",
     ReadMore: "Read more",
     ViewAll: "View all",
-    Hide: "Hide"
-
+    Hide: "Hide",
+    Description: "HealthCare provides progressive, and affordable healthcare, accessible on mobile and online for everyone",
+    Info: "©HealthCare PTY LTD 2023. All rights reserved",
+    Company: "Company",
+    About: "About",
+    Region: "Region",
+    Indonesia: "Indonesia",
+    Singapore: "Singapore",
+    Hongkong: "Hongkong",
+    Canada: "Canada",
+    Help: "Help",
+    HelpCenter: "Help center",
+    Contact: "Contact support",
+    Instructions: "Instructions",
+    Works: "How it works"
 };
 
 export default strings;

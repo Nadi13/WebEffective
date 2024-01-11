@@ -1,7 +1,7 @@
-import css from './Block4.module.scss'
+import css from './MobileApps.module.scss'
 import strings from '../../myTools/strings.tsx';
-import Line from '../Line/Line';
-import Button from '../Button/Button';
+import Line from '../Line/Line.tsx';
+import Button from '../Button/Button.tsx';
 
 const Block4 = () => {
     return <>

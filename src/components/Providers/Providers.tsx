@@ -1,7 +1,7 @@
-import css from './Block3.module.scss'
+import css from './Providers.module.scss'
 import strings from '../../myTools/strings.tsx';
-import Line from '../Line/Line';
-import Button from '../Button/Button';
+import Line from '../Line/Line.tsx';
+import Button from '../Button/Button.tsx';
 
 const Block3 = () => {
     return <>

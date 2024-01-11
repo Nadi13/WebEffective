@@ -1,9 +1,9 @@
-import css from './Block6.module.scss';
+import css from './Article.module.scss';
 import strings from '../../myTools/strings.tsx';
-import Line from '../Line/Line';
+import Line from '../Line/Line.tsx';
 import BlockCardArticle from '../BlockCardArticle/BlockCardArticle.tsx';
 import { useState } from 'react';
-import Button from '../Button/Button';
+import Button from '../Button/Button.tsx';
 
 const Block6 = () => {
     let card_data = [
@@ -44,6 +44,7 @@ const Block6 = () => {
             <div className={css.button}>
                 <Button text={isExpanded ? 'Hide' : 'View all'} onClick={viewAllHandler} />
             </div>
+            <img className={css.fivePoints} src='src/assets/five_points.png'></img>
         </div>
     );
 }

@@ -1,7 +1,7 @@
 import {useState } from 'react';
-import css from './Block5.module.scss';
+import css from './Customer.module.scss';
 import strings from '../../myTools/strings.tsx';
-import Line from '../Line/Line';
+import Line from '../Line/Line.tsx';
 
 const Block5 = () => {
 

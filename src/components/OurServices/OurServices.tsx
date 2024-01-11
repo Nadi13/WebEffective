@@ -1,8 +1,8 @@
-import css from './Block2.module.scss';
+import css from './OurServices.module.scss';
 import strings from '../../myTools/strings.tsx';
-import Line from '../Line/Line';
+import Line from '../Line/Line.tsx';
 import BlockCard from '../BlockCardServices/BlockCardServices.tsx';
-import Button from '../Button/Button';
+import Button from '../Button/Button.tsx';
 
 const Block2 = () => {
 

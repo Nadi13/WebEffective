@@ -14,7 +14,7 @@ const Header = () => {
                 <li><a href="" className = {css.a}>{strings.FindDoc}</a></li>
                 <li><a href="" className = {css.a}>{strings.Apps}</a></li>
                 <li><a href="" className = {css.a}>{strings.Testimonials}</a></li>
-                <li><a href="" className = {css.a}>{strings.About}</a></li>
+                <li><a href="" className = {css.a}>{strings.AboutUs}</a></li>
                 </ul>
             </nav>
         </header>
